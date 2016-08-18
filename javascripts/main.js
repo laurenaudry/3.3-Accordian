@@ -1,6 +1,12 @@
 "use strict";
 
-document.addEventListener("DOMContentLoaded", function(){
-  // Code here!
-  console.log("connected!");
-});
+($(function () {
+  var $bodyElement = $("[data-js=body]");
+
+  $(function() {
+  	$('.accordion-title').on('click',function() {
+  		$('.accordion-content').slideUp('fast');
+  		$(this).next('.accordion-content').slideDown('fast');
+  	});
+  });
+}));

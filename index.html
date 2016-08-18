@@ -2,9 +2,36 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <script src="javascripts/jquery-3.1.0.js" charset="utf-8">
+    </script>
+    <script src="javascripts/main.js" charset="utf-8">
+    </script>
+    <link rel="stylesheet" href="stylesheets/main.css" >
     <title></title>
   </head>
-  <body>
+  <body data-js="body">
+    <div class="accordion">
+        <div class="accordion-section">
+            <a class="accordion-title" href="#accordion-1">Section One</a>
 
+            <div class="accordion-content">
+                <p>Messenger bag cornhole meh, before they sold out keffiyeh post-ironic godard. Occupy jean shorts hammock ethical sriracha flexitarian blue bottle, gochujang 90's kitsch direct trade. Mumblecore locav ore before they sold out occupy blog, meggings venmo green juice affogato mixtape butcher offal. Master cleanse flannel mlkshk shoreditch. </p>
+            </div><!--end .accordion-content-->
+        </div><!--end .accordion-section-->
+      <div class="accordion-section" data-js="accordion-section">
+          <a class="accordion-title" href="#accordion-2" data-js="accordion-title">Section Two</a>
+
+          <div class="accordion-content" data-js="accordion-content">
+              <p>Pour-over man braid flannel, kogi tattooed cred sriracha humblebrag. Shabby chic occupy ramps, four dollar toast dreamcatcher fashion axe tattooed venmo. Heirloom cray farm-to-table, shabby chic hoodie direct trade kogi yuccie. Twee sriracha aesthetic wolf kombucha. Vinyl direct trade tacos bicycle rights. </p>
+          </div><!--end .accordion-content-->
+      </div><!--end .accordion-->
+      <div class="accordion-section">
+        <a class="accordion-title" href="#accordion-3">Section Three</a>
+
+        <div class="accordion-content">
+          <p>Letterpress intelligentsia whatever 3 wolf moon readymade try-hard cornhole, brooklyn locavore deep v. Food truck neutra crucifix health goth, hella banjo bitters readymade. Photo booth gluten-free lumbersexual polaroid shabby chic 8-bit, bitters try-hard XOXO slow-carb venmo 90's trust fund mustache brunch. Hoodie kickstarter kinfolk affogato, twee franzen keytar pop-up thundercats. </p>
+          </div><!--end .accordion-section-content-->
+        </div><!--end .accordion-section-->
+    </div><!--end .accordion-->
   </body>
 </html>
